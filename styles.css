@@ -56,6 +56,30 @@ nav ul li a {
     font-weight: bold;
 }
 
+section {
+    padding: 2rem 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
+
 
 /* MEDIA QUERY (medium) */
 
