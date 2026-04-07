@@ -22,7 +22,43 @@
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--olive-green);
+}
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
 
 /* MEDIA QUERY (medium) */
+
 /* MEDIA QUERY (large) */
+
 /* MEDIA QUERY (xl) */
