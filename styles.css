@@ -49,7 +49,7 @@ header h1 {
 }
 
 header p {
-    color: var(--champagne-gold);
+    color: var(--soft-white);
     font-style: italic;
     font-size: 0.95rem;
     margin-top: 0.5rem;
