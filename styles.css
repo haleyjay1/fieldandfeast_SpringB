@@ -174,10 +174,75 @@ footer a {
     font-size: 0.85rem;
 }
 
+footer > p:first-child a {
+    display: block;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
 
 /* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+    header {
+        padding: 2rem;
+    }
 
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .offerings-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .offering-card:last-child {
+        grid-column: 1 / -1;
+    }
+}
 
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+}
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 3rem 2rem;
+    }
+
+    header img {
+        max-width: 160px;
+    }
+
+    main {
+        max-width: 960px;
+        padding: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
