@@ -127,11 +127,51 @@ section ul li {
     margin-top: 0.3rem;
 }
 
+.offerings-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.offering-card {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 1.2rem;
+    border-radius: 4px;
+}
+
+.offering-card h3 {
+    color: var(--soft-white);
+    margin-bottom: 0.5rem;
+}
+
+.offering-card p,
+.offering-card ul,
+.offering-card li {
+    color: var(--soft-white);
+    font-size: 0.9rem;
+}
+
+
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 2 rem 1rem;
     background-color: var(--midnight-blue);
     color: var(--soft-white);
+}
+
+footer p,
+footer address {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    color: var(--soft-white);
+}
+
+footer a {
+    color: var(--champagne-gold);
+    font-size: 0.85rem;
 }
 
 
