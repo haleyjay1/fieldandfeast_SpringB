@@ -51,13 +51,18 @@ header img {
     height: auto;
 }
 
+nav {
+    background-color: var(--champagne-gold);
+    padding: 0.5rem 1rem;
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 2rem;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 nav ul li a {
