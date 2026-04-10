@@ -36,10 +36,18 @@ a {
 header {
     text-align: center;
     padding: 2rem 1rem;
+    background-color: var(--midnight-blue);
+    color: (--soft-white);
+}
+
+header h1 {
+    color: var(--soft-white);
+    font-style: italic;
+    font-size: 0.95rem;
 }
 
 header img {
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
 }
 
