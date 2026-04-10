@@ -67,10 +67,28 @@ nav ul {
 
 nav ul li a {
     font-weight: bold;
+    color: var(--midnight-blue);
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 1rem;
 }
 
 section {
-    padding: 2rem 1rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--champagne-gold);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--midnight-blue);
+}
+
+secrtion h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 .gallery {
