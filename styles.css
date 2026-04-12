@@ -136,6 +136,17 @@ section ul li {
     margin-top: 0.3rem;
 }
 
+.gallery-btn {
+    display: block;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 .offerings-grid {
     display: grid;
     grid-template-columns: 1fr;
